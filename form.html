@@ -38,7 +38,28 @@
             <button>search google</button>
         </form>
 
+        <form action="/cheese">
+            <label for="cheese">anoumt of cheese:</label>
+            <input type="range" id="cheese" min="0" max="10" step="2"  name="cheese_level">
+            <button>submit</button>
+            
+            <p>
+                <label for="text">write something in textarea</label>
+                <br>
+                <textarea name="textarea" id="text" cols="30" rows="10" placeholder="plz write something in textarea">
+                </textarea>
+            </p>
+        </form>
+
+        <form action="dummy">
+            <label for="username">username</label>
+            <input type="text" id="username" name="username" required minlength="5" maxlength="15">
+            
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" required >
+
+            <button>submit</button>
+        </form>
 </body>
 </html>
 
-<!-- https://www.youtube.com/results?search_query -->
